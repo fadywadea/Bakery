@@ -1,15 +1,22 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans";
+    scroll-behavior: smooth;
 }
 
 .home {
-
     background-image: url(../images/back-ground1.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
-.home .coption{
-    background-color: red;
+.home .caption{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 100px;
+    color: white;
 }
 
 
