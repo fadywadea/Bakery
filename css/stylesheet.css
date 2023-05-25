@@ -10,11 +10,12 @@ body {
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
+	opacity: 1;
 }
 
 .home .caption {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .caption {
@@ -22,7 +23,6 @@ body {
 	margin: 0 auto;
 	max-width: 100%;
 	box-sizing: inherit;
-	background-color: black;
 }
 
 .caption p,
@@ -55,14 +55,70 @@ p {
 .home .caption .btn {
 	background-color: transparent;
 	border: 2px solid transparent;
+	border-radius: 4px;
 	padding: 15px 28px;
 	color: white;
 	font-size: 16px;
 	font-weight: 700;
-	line-height: 22.1px;
-
+	line-height: 1.3rem;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom: 12px;
+	z-index: 1;
 }
 
-.home .caption .bg-btn {
+.home .caption .btn.bg-btn {
 	background-color: #8e7754;
+	z-index: 2;
+}
+
+
+.home .caption .bg-btn:hover {
+	color: black;
+	background-color: #fff;
+	transition: all .2s ease-in-out
+}
+
+.home .caption .btn-outline {
+	border-color: #fff;
+}
+
+.btn.btn-outline:hover {
+	color: black;
+	background-color: #fff;
+	transition: all .2s ease-in-out
+}
+
+.nav {
+	background-color: red;
+	padding: 10px;
+}
+
+.nav img {
+	float: left;
+	width: 15%;
+}
+
+.nav ul {
+	float: right;
+	background-color: teal;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	width: 100px;
+}
+
+.nav li a {
+	font-size: 17px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #e0dcd2;
+	;
+}
+
+.clear-fix {
+	clear: both;
 }
