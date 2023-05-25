@@ -1,136 +1,15 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Alegreya Sans";
-    scroll-behavior: smooth;
 }
 
-header {
-    position: relative;
-    padding: 0 2rem;
-    height: 100vh;
-    width: 100%;
+.home {
+
     background-image: url(../images/back-ground1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-.navbar {
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
-}
-
-.logo img {
-    margin: 20px 30px 0px;
-    float: left;
-}
-
-ul li {
-    list-style: none;
-    padding: 20px 15px;
-    margin-top: 20px;
-    width: auto;
-    float: right;
-    font-weight: 400;
-    font-size: 17px;
-}
-
-.greeting p,
-h1,
-p {
-    text-align: center;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.btn-1 {
-    align-items: center;
-}
-
-.btn-2 {
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: #e0dcd2;
-}
-
-a :hover {
-    color: #ae9768;
-    transition: color .4s ease-in-out, opacity .4s ease-in-out;
-}
-
-a :active {
-    border-top: 3px solid #ae9768;
+.home .coption{
+    background-color: red;
 }
 
 
-
-
-
-
-
-
-
-
-/*.logo img {
-    margin: 0px;
-    height: 90px;
-    width: auto;
-    max-width: 100%;
-    padding-top: 50px;
-    float: left;
-    vertical-align: text-bottom;
-    background-color: black;
-}
-
-ul li {
-    display: inline-block;
-    margin: 0;
-    height: 70px;
-    width: auto;
-    font-size: larger;
-    background-color: black;
-    list-style: none;
-    float: right;
-    padding-top: 50px;
-    vertical-align: text-bottom;
-}
-
-
-
-    position: relative;
-    
-*/
-
-/*.navbar {
-    width: 100%;
-    height: auto;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.navbar .navigation {
-    display: flex;
-    gap: 2rem;
-}*/
-
-/**div .container {
-    display: inline-block;
-    background-color: transparent;
-    height: 100%;
-    width: auto;
-}
-
-
-ul .nav {
-    float: right;
-    vertical-align: baseline;
-    text-decoration: none;
-}*/
