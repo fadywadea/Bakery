@@ -1,4 +1,4 @@
-* {
+body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Alegreya Sans";
@@ -14,7 +14,55 @@
 
 .home .caption {
 	text-align: center;
-	background-color: transparent;
 	padding-top: 100px;
+}
+
+.caption {
+	width: 710px;
+	margin: 0 auto;
+	max-width: 100%;
+	box-sizing: inherit;
+	background-color: black;
+}
+
+.caption p,
+h1,
+button {
+	margin-top: 18px;
+}
+
+p {
+	color: rgba(255, 255, 255, .92);
+	line-height: 1.86em;
+}
+
+.wlc {
+	font-size: 22px;
+}
+
+.caption h1 {
+	line-height: 1.2em;
+	font-size: 76px;
+	font-weight: 400;
+	box-sizing: inherit;
+	color: rgba(255, 255, 255, .92);
+}
+
+.disc {
+	font-size: 24px;
+}
+
+.home .caption .btn {
+	background-color: transparent;
+	border: 2px solid transparent;
+	padding: 15px 28px;
 	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.1px;
+
+}
+
+.home .caption .bg-btn {
+	background-color: #8e7754;
 }
