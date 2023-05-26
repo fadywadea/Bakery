@@ -200,12 +200,12 @@ p {
 
 .section1 .who-we-are li i {
     width: 40px;
-    height: 40px;
+    height: auto;
     line-height: 40px;
 	top: 5px;
 	text-align: center;
 	align-items: center;
-    font-size: 25px;
+    font-size: x-large;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 100%;
 	background: none;
