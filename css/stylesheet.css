@@ -199,29 +199,25 @@ p {
 }
 
 .section1 .who-we-are li i {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     line-height: 40px;
 	top: 5px;
-	position: relative;
 	text-align: center;
-	align-items: center ;
+	align-items: center;
     font-size: 25px;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 100%;
 	background: none;
     color: #8e7754;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	margin-top: 50;
+	padding: 0px;
 	margin-bottom: 15px;
 	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .section1 .who-we-are span {
-    vertical-align: middle;
+    vertical-align: baseline;
 	color: #686868;
 	font-size: 17px;
 	line-height: 31.62px;
