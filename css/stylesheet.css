@@ -149,11 +149,12 @@ p {
 .section1 {
 	position: relative;
 	box-sizing: border-box;
-	width: 1465px;
-	padding: 90px 112.6px 60px 112.4px;
+	width: 100%;
 	text-align: start;
 	display: inline-block;
 	align-items: center;
+	padding: 90px 112.6px 60px 112.4px;
+	margin: auto;
 }
 
 .section1 .bread-img {
@@ -169,6 +170,7 @@ p {
 	width: 50%;
 	float: right;
 	vertical-align: baseline;
+	padding: 0;
 }
 
 .section1 .who-we-are h2 {
@@ -209,15 +211,17 @@ p {
     border-radius: 100%;
 	background: none;
     color: #8e7754;
+	padding-top: 10px;
+	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	margin-top: 0;
+	margin-top: 50;
 	margin-bottom: 15px;
 	margin-right: 15px;
 }
 
 .section1 .who-we-are span {
-    vertical-align: baseline;
+    vertical-align: middle;
 	color: #686868;
 	font-size: 17px;
 	line-height: 31.62px;
