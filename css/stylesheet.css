@@ -267,12 +267,12 @@ p {
 	text-align: start;
 }
 
-.our-baking {
+.section3 {
 	padding: 70px 66.6px 70px 66.6px;
 	text-align: center;
 }
 
-.our-baking h3 {
+.section3 h3 {
 	color: #303030;
 	font-size: 30px;
 	line-height: 41.4px;
@@ -280,7 +280,7 @@ p {
 	margin: 30px 0px;
 }
 
-.section3 {
+.our-baking {
 	line-height: 31.62px;
 	vertical-align: baseline;
 	margin: 17px 245px 0px;
@@ -304,7 +304,7 @@ p {
 	vertical-align: top;
 }
 
-.our-baking h4 {
+.section3 h4 {
 	margin-top: 0;
 	color: #303030;
 	font-size: 22px;
@@ -312,7 +312,7 @@ p {
 	line-height: 30.36px;
 }
 
-.our-baking .item p {
+.section3 .item p {
 	color: #686868;
 	font-size: 17px;
 	font-weight: 400;
@@ -321,6 +321,8 @@ p {
 	vertical-align: baseline;
 }
 
-.our-baking  p {
+.section3  p {
 	color: #888888;
 }
+
+
