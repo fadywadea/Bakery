@@ -94,40 +94,37 @@ p {
 	transition: all .2s ease-in-out
 }
 
-.nav {
-	padding: 10px;
-	margin: auto;
-	display: inline-block;
-	vertical-align: middle;
-}
 
 .home .nav img {
-	float: left;
-	width: 12%;
-	margin: auto;
-	padding-top: 5px;
+	width: 13%;
+	padding: 0px;
+	margin: 0;
 	padding-left: 120px;
+	padding-top: 10px;
+	float: left;
 }
 
 .nav img {
 	width: 100%;
 }
 
-
-.nav ul {
-	float: right;
+.home .nav ul {
+	padding-top: 30px;
 	list-style-type: none;
-	margin: auto;
-	padding: 20px 0px 0px 300px;
+	margin: 0;
+	float: right;
+	padding-right: 190px;
+
 }
 
-.nav li {
-	float: left;
-	width: 100px;
-	padding: 0px 2px;
+.home .nav li {
+	display: inline-block;
+	vertical-align: baseline;
+	margin: 10px;
+	margin-left: 10px;
 }
 
-.nav li a {
+.home .nav li a {
 	font-size: 18px;
 	font-weight: 400;
 	text-decoration: none;
@@ -136,12 +133,12 @@ p {
 	line-height: 1.3rem;
 }
 
-.nav li a :hover {
+.home .nav li a :hover {
 	color: #ae9768;
 	transition: color .4s ease-in-out, opacity .4s ease-in-out;
 }
 
-.nav li a :active {
+.home .nav li a :active {
 	border-top: 3px solid #ae9768;
 }
 
@@ -153,13 +150,12 @@ p {
 	text-align: start;
 	display: inline-block;
 	align-items: center;
-	padding: 90px 112.6px 60px 112.4px;
-	margin: auto;
+	padding: 90px 112.6px 100px 112.4px;
 }
 
 .section1 .bread-img {
-	width: 50%;
-	float: left;
+	width: 40%;
+	padding-left: 100px;
 }
 
 .section1 .bread-img img {
@@ -167,10 +163,12 @@ p {
 }
 
 .section1 .who-we-are {
+	position: relative;
 	width: 50%;
-	float: right;
 	vertical-align: baseline;
 	padding: 0;
+	left: 700px;
+	margin-top: -40%;
 }
 
 .section1 .who-we-are h2 {
@@ -234,8 +232,9 @@ p {
 
 .section2 .items-img2 {
 	width: 50%;
-	float: right;
 	padding: 0px 0px 0px 24.8px;
+	position: relative;
+	left: 700px;
 }
 
 .section2 .items-img2 img {
@@ -245,8 +244,9 @@ p {
 .section2 .our-location {
 	width: 50%;
 	padding: 100px 24.8px 0px 0px;
-	margin: 0;
+	margin-top: -40%;
 	text-align: left;
+
 	height: 444px;
 }
 
@@ -315,7 +315,9 @@ p {
 	color: #686868;
 	font-size: 17px;
 	font-weight: 400;
-	margin: 0;
+	margin: auto;
+	width: 80%;
+	text-align: center;
 	line-height: 31.62px;
 }
 
@@ -324,19 +326,21 @@ p {
 }
 
 .section4 {
-
+	position: relative;
 	box-sizing: border-box;
 	display: inline-block;
 	background-color: red;
-	margin: 0;
+	margin: auto;
 	padding: 85px 224px;
+	width: 100%;
+	text-align: center;
 }
 
 .section4 .google-map iframe {
 	background-color: teal;
 	width: 50%;
+	margin: auto;
 	float: right;
-	padding: 0px 15px;
 }
 
 iframe {
@@ -345,7 +349,10 @@ iframe {
 
 .section4 .contact-information {
 	background-color: tan;
+	text-align: start;
 	float: left;
+	margin: auto;
+	height: auto;
 	width: 50%;
 	padding: 20px 15px 0px;
 }
