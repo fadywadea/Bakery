@@ -228,7 +228,7 @@ p {
 .section2 {
 	background-color: #f8f8f8;
 	display: inline-block;
-	padding: 90px 139.4px 90px 139.6px;
+	padding: 90px 139.4px 30px 139.6px;
 	margin: 0px;
 	text-align: center;
 	align-items: center;
@@ -280,7 +280,7 @@ p {
 	font-size: 30px;
 	line-height: 41.4px;
 	font-weight: 400;
-	margin: 30px 0px;
+	margin: 10px 0px;
 }
 
 .our-baking {
