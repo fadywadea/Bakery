@@ -150,12 +150,14 @@ p {
 	text-align: start;
 	display: inline-block;
 	align-items: center;
-	padding: 90px 112.6px 100px 112.4px;
+	padding: 90px 112.6px 30px 112.4px;
 }
 
+
 .section1 .bread-img {
-	width: 40%;
-	padding-left: 100px;
+	position: relative;
+	width: 45%;
+	padding-left: 10px;
 }
 
 .section1 .bread-img img {
@@ -166,9 +168,8 @@ p {
 	position: relative;
 	width: 50%;
 	vertical-align: baseline;
-	padding: 0;
-	left: 700px;
-	margin-top: -40%;
+	left: 650px;
+	margin-top: -45%;
 }
 
 .section1 .who-we-are h2 {
@@ -192,8 +193,9 @@ p {
 .section1 .who-we-are ul {
 	list-style-type: none;
 	margin: auto;
-	padding: 20px 20px 50px 50px;
+	padding: 10px 0px 50px 30px;
 	box-sizing: border-box;
+	text-align: start;
 }
 
 .section1 .who-we-are li i {
@@ -227,14 +229,16 @@ p {
 	background-color: #f8f8f8;
 	display: inline-block;
 	padding: 90px 139.4px 90px 139.6px;
-	margin: auto;
+	margin: 0px;
+	text-align: center;
+	align-items: center;
 }
 
 .section2 .items-img2 {
 	width: 50%;
 	padding: 0px 0px 0px 24.8px;
 	position: relative;
-	left: 700px;
+	left: 650px;
 }
 
 .section2 .items-img2 img {
@@ -243,10 +247,9 @@ p {
 
 .section2 .our-location {
 	width: 50%;
-	padding: 100px 24.8px 0px 0px;
-	margin-top: -40%;
+	padding: 0px 24.8px 0px 0px;
+	margin-top: -35%;
 	text-align: left;
-
 	height: 444px;
 }
 
@@ -331,7 +334,7 @@ p {
 	display: inline-block;
 	background-color: red;
 	margin: auto;
-	padding: 85px 224px;
+	padding: 85px 10px;
 	width: 100%;
 	text-align: center;
 }
