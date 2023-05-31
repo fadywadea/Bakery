@@ -16,9 +16,9 @@ body {
 	height: 100vh;
 }
 
-.home-background  {
-	background: rgba(0,0,0,0.20);
-   height: 100vh;
+.home-background {
+	background: rgba(0, 0, 0, 0.20);
+	height: 100vh;
 }
 
 .home .caption {
