@@ -14,12 +14,17 @@ body {
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
-	opacity: 1;
+}
+
+.home-background  {
+	background: rgba(0,0,0,0.20);
+   height: 100vh;
 }
 
 .home .caption {
 	text-align: center;
 	padding-top: 150px;
+	margin: auto;
 }
 
 .caption {
@@ -48,7 +53,6 @@ p {
 	line-height: 1.2em;
 	font-size: 76px;
 	font-weight: 400;
-	box-sizing: inherit;
 	color: rgba(255, 255, 255, .92);
 }
 
@@ -94,11 +98,10 @@ p {
 	transition: all .2s ease-in-out
 }
 
-
 .home .nav img {
+	display: inline-block;
 	width: 13%;
-	padding: 0px;
-	margin: 0;
+	margin: auto;
 	padding-left: 120px;
 	padding-top: 10px;
 }
@@ -108,23 +111,20 @@ p {
 }
 
 .home .nav ul {
-	padding-top: 30px;
+	display: inline-block;
 	list-style-type: none;
-	margin: 0;
-	float: right;
-	padding-right: 190px;
-
+	margin: auto;
+	padding-left: 600px;
 }
 
 .home .nav li {
 	display: inline-block;
 	vertical-align: baseline;
 	margin: 10px;
-	margin-left: 10px;
 }
 
 .home .nav li a {
-	font-size: 18px;
+	font-size: larger;
 	font-weight: 400;
 	text-decoration: none;
 	color: #e0dcd2;
