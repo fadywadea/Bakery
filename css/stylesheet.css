@@ -440,7 +440,7 @@ iframe {
 }
 
 .footer .footer-up .About-us ul {
-	background-image: rgba(255,255,255,0.01);
+	background-image: rgba(255, 255, 255, 0.01);
 	color: #969696;
 	text-align: start;
 	font-size: 16px;
@@ -458,7 +458,7 @@ iframe {
 	padding: 10px;
 	width: 100%;
 	text-align: start;
-	border-bottom: 1px solid rgba(255,255,255,0.05);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .footer .footer-up .About-us ul li i {
@@ -473,11 +473,11 @@ iframe {
 	vertical-align: baseline;
 	color: #fff;
 	font-size: 18px;
-   line-height: 24.84px;
+	line-height: 24.84px;
 	margin: 0px 0px 25px;
 	padding: 0px;
 	font-weight: 400;
-	
+
 }
 
 .footer p {
@@ -512,13 +512,16 @@ iframe {
 	color: #777777;
 	font-size: 15px;
 	line-height: 27.9px;
-	margin:  5px 0px 0px ;
+	margin: 5px 0px 0px;
 	font-weight: 400;
 }
 
-.footer-down img , .footer-down p , .footer-down ul {
+.footer-down img,
+.footer-down p,
+.footer-down ul {
 	padding: 10px;
 }
+
 .footer-down ul {
 	display: inline-block;
 	list-style: none;
@@ -528,7 +531,7 @@ iframe {
 }
 
 .footer-down .icons li {
-   float: left;
+	float: left;
 	text-align: center;
 }
 
@@ -547,26 +550,26 @@ iframe {
 }
 
 .footer-down .icons a :hover {
-   color: white;
-	transition: color .4s ease-in-out,  .4s ease-in-out;
+	color: white;
+	transition: color .4s ease-in-out, .4s ease-in-out;
 }
 
-.footer-down .icons .face a :hover{
+.footer-down .icons .face a :hover {
 	background-color: #3b5998;
-	transition: color .4s ease-in-out,  .4s ease-in-out;
-} 
+	transition: color .4s ease-in-out, .4s ease-in-out;
+}
 
-.footer-down .icons .google a :hover{
-	background-color:  #dd4b39;
-	transition: color .4s ease-in-out,  .4s ease-in-out;
-} 
+.footer-down .icons .google a :hover {
+	background-color: #dd4b39;
+	transition: color .4s ease-in-out, .4s ease-in-out;
+}
 
-.footer-down .icons .linkedin a :hover{
+.footer-down .icons .linkedin a :hover {
 	background-color: #007bb5;
-	transition: color .4s ease-in-out,  .4s ease-in-out;
-} 
+	transition: color .4s ease-in-out, .4s ease-in-out;
+}
 
-.footer-down .icons .twitter a :hover{
+.footer-down .icons .twitter a :hover {
 	background-color: #00aced;
-	transition: color .4s ease-in-out,  .4s ease-in-out;
-} 
+	transition: color .4s ease-in-out, .4s ease-in-out;
+}
